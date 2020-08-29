@@ -11,7 +11,7 @@ function useSticky () {
   }
 
     // This function handle the scroll performance issue
-    const debounce = (func, wait = 20, immediate = true) => {
+    const debounce = (func, wait = 10, immediate = true) => {
       let timeOut;
       return () => {
         let context = this,

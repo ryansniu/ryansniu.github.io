@@ -10,9 +10,9 @@ const Welcome = ({element}) => {
                 <section className='welcome'>
                     <div ref={element}>
                         <img src={Logo} alt='logo' className='welcome--logo' />
-                        <p>Even if you scroll, i will stick with you</p>
+                        <p>Currently under construction</p>
                         <button className='welcome__cta-primary'>
-                            Contact us
+                            Contact me never
                         </button>
                     </div>
                 </section>

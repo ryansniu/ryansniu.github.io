@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 2.5rem;
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -21,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #fff;
   }
   
   .navbar--logo {
@@ -33,6 +33,7 @@
   .navbar--link {
     display: flex;
     list-style: none;
+    color: #fff;
   }
   
   .navbar--link-item {
@@ -42,6 +43,15 @@
   }
   
   @keyframes moveDown {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
+
+  @keyframes moveUp {
     from {
       transform: translateY(-5rem);
     }
