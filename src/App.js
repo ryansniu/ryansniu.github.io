@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './components/Navbar'
+import StickyNav from './components/StickyNav'
 import Welcome from './sections/Welcome'
 import Experience from './sections/Experience'
 import Projects from './sections/Projects'
@@ -9,7 +9,7 @@ import './App.css'
 function App() {
     return (
         <>
-            <Navbar/>
+            <StickyNav/>
             <Welcome/>
             <Experience/>
             <Projects/>

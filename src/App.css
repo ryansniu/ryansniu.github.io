@@ -1,19 +1,13 @@
-.navbar > .active{
-  color: orange;
-}
-
-.navbar--link > .active{
-  color: orange;
-}
-
 .experience {
   height: 100vh;
   background-color: skyblue;
 }
+
 .projects {
   height: 100vh;
   background-color: mediumpurple;
 }
+
 .resume {
   height: 100vh;
   background-color: tomato;
