@@ -1,14 +1,19 @@
 import React from 'react'
-import useSticky from './hooks/useSticky.js'
-import Welcome from './components/Header/Welcome'
-import Navbar from './components/Header/Navbar'
+import Navbar from './components/Navbar'
+import Welcome from './sections/Welcome'
+import Experience from './sections/Experience'
+import Projects from './sections/Projects'
+import Resume from './sections/Resume'
+import './App.css'
 
 function App() {
-    const { isSticky, element } = useSticky()
     return (
         <>
-            <Navbar sticky={isSticky} />
-            <Welcome element={element} />
+            <Navbar/>
+            <Welcome/>
+            <Experience/>
+            <Projects/>
+            <Resume/>
         </>
     )
 }
