@@ -1,5 +1,4 @@
-.sNav-item {
-  color: purple;
-  padding: 0 0.3rem;
-  size: 40;
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
 }

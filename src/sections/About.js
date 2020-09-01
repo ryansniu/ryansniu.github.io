@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
 const About = () => (
   <section className="about" id="about">
     <h1>About</h1>
-    <p className="welcome--about">
+    <p>
       I like to program.
       I like to run.
       I like to make music.

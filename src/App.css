@@ -1,3 +1,11 @@
+.about {
+  padding: 2rem;
+  width: 50rem;
+  color: #444;
+  text-align: justify;
+  margin: auto;
+}
+
 .experience {
   height: 100vh;
   background-color: skyblue;
