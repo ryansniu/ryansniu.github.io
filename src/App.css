@@ -1,8 +1,11 @@
 .about {
   padding: 2rem;
-  width: 50rem;
+  max-width: 80rem;
   color: #444;
-  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: auto;
 }
 
