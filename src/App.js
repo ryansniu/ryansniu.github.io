@@ -19,7 +19,7 @@ class App extends React.Component {
     render(){
         return (
             <>
-                <StickyNav {...this.state.width}/>
+                <StickyNav width={this.state.width}/>
                 <Welcome/>
                 <About/>
                 <Experience/>
