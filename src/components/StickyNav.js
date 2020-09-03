@@ -17,30 +17,29 @@ class StickyNav extends React.Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto"></Nav>
           <Nav>
-            <Link to="about" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none' }}>
+            <Link to="about" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none', textAlign: 'center' }}>
               <Nav.Link>
                 <h4>About</h4>
               </Nav.Link>
             </Link>
     
-            <Link to="experience" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none' }}>
+            <Link to="experience" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none', textAlign: 'center' }}>
               <Nav.Link>
                 <h4>Experience</h4>
               </Nav.Link>
             </Link>
     
-            <Link to="projects" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none' }}>
+            <Link to="projects" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none', textAlign: 'center' }}>
               <Nav.Link>
                 <h4>Projects</h4>
               </Nav.Link>
             </Link>
             
-            <Link to="resume" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none' }}>
+            <Link to="resume" smooth={true} spy={true} offset={-80 + off} duration= {500} style={{ textDecoration: 'none', textAlign: 'center' }}>
               <Nav.Link>
                 <h4>Resume</h4>
               </Nav.Link>
             </Link>
-    
           </Nav>
         </Navbar.Collapse>
       </Navbar>

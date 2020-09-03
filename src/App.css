@@ -1,25 +1,24 @@
 .about {
   padding: 2rem;
   max-width: 80rem;
-  color: #444;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100vh;
   text-align: center;
-  margin: auto;
 }
 
 .experience {
+  padding: 2rem;
   height: 100vh;
   background-color: skyblue;
 }
 
 .projects {
+  padding: 2rem;
   height: 100vh;
   background-color: mediumpurple;
 }
 
 .resume {
+  padding: 2rem;
   height: 100vh;
   background-color: tomato;
 }
