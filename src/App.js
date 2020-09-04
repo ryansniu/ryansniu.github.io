@@ -5,6 +5,7 @@ import About from './sections/About'
 import Experience from './sections/Experience'
 import Projects from './sections/Projects'
 import Resume from './sections/Resume'
+import Footer from './sections/Footer'
 import './App.css'
 
 class App extends React.Component {
@@ -24,7 +25,8 @@ class App extends React.Component {
                 <About/>
                 <Experience/>
                 <Projects/>
-                <Resume/>
+                <Resume width={this.state.width}/>
+                <Footer/>
             </>
         );
     }

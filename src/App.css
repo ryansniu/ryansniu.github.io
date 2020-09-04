@@ -9,16 +9,19 @@
   padding: 2rem;
   height: 100vh;
   background-color: skyblue;
+  text-align: center;
 }
 
 .projects {
   padding: 2rem;
   height: 100vh;
   background-color: mediumpurple;
+  text-align: center;
 }
 
-.resume {
+.footer {
   padding: 2rem;
-  height: 100vh;
-  background-color: tomato;
+  text-align: center;
+  color:white;
+  background-color: black;
 }

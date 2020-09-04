@@ -10,7 +10,7 @@ class StickyNav extends React.Component {
       <Navbar sticky="top" expand="md" bg="dark" variant="dark">
         <Link to="welcome" smooth={true} offset={-100 + off} duration= {500}>
           <Navbar.Brand>
-            <h1><b>Ryan Niu</b></h1>
+            <h1>Ryan Niu</h1>
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
