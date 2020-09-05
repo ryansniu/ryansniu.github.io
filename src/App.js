@@ -8,47 +8,17 @@ import Resume from './sections/Resume'
 import Footer from './sections/Footer'
 import './App.css'
 
-class App extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-          width: 800,
-          height: 182,
-        };
-    }
 
-    render(){
-        return (
-            <>
-                <StickyNav width={this.state.width}/>
-                <Welcome/>
-                <About/>
-                <Experience/>
-                <Projects/>
-                <Resume width={this.state.width}/>
-                <Footer/>
-            </>
-        );
-    }
-    
-    componentDidMount() {
-        this.updateDimensions();
-        window.addEventListener("resize", this.updateDimensions.bind(this));
-    }
-    
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.updateDimensions.bind(this));
-    }
-    
-    updateDimensions() {
-        if (window.innerWidth < 500) {
-          this.setState({ width: 450, height: 102 });
-        } else {
-          let update_width = window.innerWidth - 100;
-          let update_height = Math.round(update_width / 4.4);
-          this.setState({ width: update_width, height: update_height });
-        }
-    }
-}
+const App = () => (
+    <>
+        <StickyNav/>
+        <Welcome/>
+        <About/>
+        <Experience/>
+        <Projects/>
+        <Resume/>
+        <Footer/>
+    </>
+);
 
 export default App
