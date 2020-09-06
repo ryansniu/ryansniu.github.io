@@ -18,7 +18,7 @@ const Welcome = () => {
                     </text>
                     <div>
                         <a href="https://github.com/ryansniu" target="_blank" rel="noopener noreferrer">
-                            <Image className='home-icons' src={'/github-64.png'} fluid alt='Github'/>
+                            <Image className='home-icons' src={'/github-64.png'} fluid alt='GitHub'/>
                         </a>
                         <a href="https://www.linkedin.com/in/ryansniu/" target="_blank" rel="noopener noreferrer">
                             <Image className='home-icons' src={'/linkedin-64.png'} fluid alt='LinkedIn'/>

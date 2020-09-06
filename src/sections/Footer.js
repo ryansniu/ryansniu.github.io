@@ -1,12 +1,12 @@
 import React from 'react'
-import { Image, Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const Footer = () => (
   <Container fluid className="footer">
     <text>
-        <i>This website was made by scratch using ReactJS, React-Bootstrap, and React-PDF.</i>
+        <i style={{color: "#9A9DA0"}}>This website was made by scratch using ReactJS, React-Bootstrap, and React-PDF.</i>
         <br/>
-        © 2020 Ryan Niu
+        <text style={{color: "#CCCECF"}}>© 2020 Ryan Niu</text>
     </text>
   </Container>
 );
