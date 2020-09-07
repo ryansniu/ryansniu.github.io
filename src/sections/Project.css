@@ -6,21 +6,22 @@
 }
 .project-stack {
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 .project-deck {
-    padding: 0 3rem 0 3rem;
+    padding: 0 1rem 0 1rem;
+    margin-top: 2rem;
 }
 .project-card {
     text-align: left;
-    margin-top: 2rem;
+    height: 100%;
 }
 .project-img {
     float: left;
-    padding-right: 1rem;
+    padding: 0 1rem 1rem 0;
+    width: 80px;
 }
 .project-icons {
-    float: inline-end;
-    padding: 0.6rem 0rem 0 1.2rem;
+    padding: 0rem 0rem 0 1.2rem;
     max-width: 4rem;
 }
