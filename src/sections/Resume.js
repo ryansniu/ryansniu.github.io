@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useState } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import { Document, Page, pdfjs } from 'react-pdf'
 import './Resume.css'
+import resume from '../assets/resume.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -26,11 +27,11 @@ const Resume = () => {
       <h1>Resume</h1>
       <h5>My skills, experience, and portfolio on a single page.</h5>
       <Row className="resume-pdf">
-        <Document file={'/resume.pdf'}>
+        <Document file={resume}>
           <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} width={pdfWidth}/>
         </Document>
       </Row>
-      <text>Feel free to download my resume <a href={'/resume.pdf'} target="_blank">here</a>.</text>
+      <text>Feel free to download my resume <a href={resume} target="_blank">here</a>.</text>
     </Container>
   );
 }
