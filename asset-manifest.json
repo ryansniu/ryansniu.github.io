@@ -1,25 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.76f5aa69.chunk.css",
-    "main.js": "/static/js/main.6cac7727.chunk.js",
-    "main.js.map": "/static/js/main.6cac7727.chunk.js.map",
+    "main.css": "/static/css/main.9b59a94e.chunk.css",
+    "main.js": "/static/js/main.a52f2e4e.chunk.js",
+    "main.js.map": "/static/js/main.a52f2e4e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b1f0b2ba.js",
     "runtime-main.js.map": "/static/js/runtime-main.b1f0b2ba.js.map",
     "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.6734ca87.chunk.js": "/static/js/2.6734ca87.chunk.js",
-    "static/js/2.6734ca87.chunk.js.map": "/static/js/2.6734ca87.chunk.js.map",
+    "static/js/2.1f46ae43.chunk.js": "/static/js/2.1f46ae43.chunk.js",
+    "static/js/2.1f46ae43.chunk.js.map": "/static/js/2.1f46ae43.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3cf991e132f4b047c515c9f45fe2a90e.js": "/precache-manifest.3cf991e132f4b047c515c9f45fe2a90e.js",
+    "precache-manifest.b65e0fa13a0cf7429cd9066fbeb621d6.js": "/precache-manifest.b65e0fa13a0cf7429cd9066fbeb621d6.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.76f5aa69.chunk.css.map": "/static/css/main.76f5aa69.chunk.css.map",
-    "static/js/2.6734ca87.chunk.js.LICENSE.txt": "/static/js/2.6734ca87.chunk.js.LICENSE.txt"
+    "static/css/main.9b59a94e.chunk.css.map": "/static/css/main.9b59a94e.chunk.css.map",
+    "static/js/2.1f46ae43.chunk.js.LICENSE.txt": "/static/js/2.1f46ae43.chunk.js.LICENSE.txt",
+    "static/media/award.jpg": "/static/media/award.8a1ef11e.jpg",
+    "static/media/blue-spot.png": "/static/media/blue-spot.291d6aa8.png",
+    "static/media/mvhs.png": "/static/media/mvhs.f356cefb.png",
+    "static/media/pfp.jpg": "/static/media/pfp.967e84f8.jpg",
+    "static/media/presentation.jpg": "/static/media/presentation.cf9b793b.jpg",
+    "static/media/presenting.jpg": "/static/media/presenting.f34c718b.jpg",
+    "static/media/resume.pdf": "/static/media/resume.442a0d45.pdf",
+    "static/media/streetcode-academy.png": "/static/media/streetcode-academy.6848806d.png",
+    "static/media/touhou-dx.png": "/static/media/touhou-dx.740b0513.png",
+    "static/media/ucsb-gdc.png": "/static/media/ucsb-gdc.49551ed1.png",
+    "static/media/voice-order.png": "/static/media/voice-order.01ff932a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b1f0b2ba.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.6734ca87.chunk.js",
-    "static/css/main.76f5aa69.chunk.css",
-    "static/js/main.6cac7727.chunk.js"
+    "static/js/2.1f46ae43.chunk.js",
+    "static/css/main.9b59a94e.chunk.css",
+    "static/js/main.a52f2e4e.chunk.js"
   ]
 }
