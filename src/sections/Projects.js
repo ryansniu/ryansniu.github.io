@@ -1,6 +1,5 @@
 import React from 'react'
-import { Image, Container, Row, Col, Card, ListGroup, ListGroupItem, CardColumns } from 'react-bootstrap'
-import Carousel, { Modal, ModalGateway } from 'react-images'
+import { Image, Container, Row, Col, Card, ListGroup, ListGroupItem, Carousel, Modal } from 'react-bootstrap'
 import './Project.css'
 import github from '../assets/icons/github-64.png'
 import devpost from '../assets/icons/devpost-64.png'
@@ -8,35 +7,68 @@ import gallery from '../assets/icons/gallery-64.png'
 import youtube from '../assets/icons/youtube-64.png'
 import blueSpot from '../assets/projects/blue-spot.png'
 import voiceOrder from '../assets/projects/voice-order.png'
+import vo1 from '../assets/projects/voiceorder/presentation.jpg'
+import vo2 from '../assets/projects/voiceorder/award.jpg'
 import primesAndDragons from '../assets/projects/primes-and-dragons.png'
 import touhouDX from '../assets/projects/touhou-dx.png'
 import tdx1 from '../assets/projects/touhoudx/presenting.jpg'
 import tdx2 from '../assets/projects/touhoudx/presentation.jpg'
 import tdx3 from '../assets/projects/touhoudx/award.jpg'
 
-const tdxImages = [{ src: tdx1 }, { src: tdx2 }, { src: tdx3 }];
-
 class Projects extends React.Component {
-  state = { modalIsOpen: false }
+  state = { showVO: false, showPAD: false, showTDX: false, showTDX_V:false };
 
-  toggleModal = () => {
-    this.setState(state => ({ modalIsOpen: !this.state.modalIsOpen }));
-  }
+  toggleVO = () => { this.setState(state => ({ showVO: !state.showVO })); };
+  togglePAD = () => { this.setState(state => ({ showPAD: !state.showPAD })); };
+  toggleTDX = () => { this.setState(state => ({ showTDX: !state.showTDX })); };
+  toggleTDX_V = () => { this.setState(state => ({ showTDX_V: !state.showTDX_V })); };
 
   render(){
-    const modalIsOpen = this.state.modalIsOpen;
     return(
       <Container fluid className="projects" id="projects">
         <h1>Projects</h1>
         <h5>A comprehensive portfolio of my personal projects.</h5>
-        
-        <ModalGateway>
-          {modalIsOpen ? (
-            <Modal onClose={this.toggleModal}>
-              <Carousel views={tdxImages}/>
-            </Modal>
-          ) : null}
-        </ModalGateway>
+
+        <Modal centered size="xl" show={this.state.showVO} onHide={this.toggleVO} className="project-modal">
+          <Modal.Body>
+            <Carousel slide={false} wrap={false} interval={null}>
+              <Carousel.Item>
+                <Image fluid src={vo1} alt="Presentation"/>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image fluid src={vo2} alt="Award"/>
+              </Carousel.Item>
+            </Carousel>
+          </Modal.Body>
+        </Modal>
+
+        <Modal centered size="xl" show={this.state.showPAD} onHide={this.togglePAD} className="project-modal">
+          <Modal.Body style={{position: "relative", paddingTop: "56.25%"}}>
+            <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/ySQc-nQ6CYI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </Modal.Body>
+        </Modal>
+
+        <Modal centered size="xl" show={this.state.showTDX} onHide={this.toggleTDX} className="project-modal">
+          <Modal.Body>
+            <Carousel slide={false} wrap={false} interval={null}>
+              <Carousel.Item>
+                <Image fluid src={tdx1} alt="Presenting"/>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image fluid src={tdx2} alt="Presentation"/>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Image fluid src={tdx3} alt="Award"/>
+              </Carousel.Item>
+            </Carousel>
+          </Modal.Body>
+        </Modal>
+
+        <Modal centered size="xl" show={this.state.showTDX_V} onHide={this.toggleTDX_V} className="project-modal">
+          <Modal.Body style={{position: "relative", paddingTop: "56.25%"}}>
+            <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/ySQc-nQ6CYI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </Modal.Body>
+        </Modal>
 
         <Row fluid className="project-stack">
           <Col fluid lg={5} className="project-deck">
@@ -64,6 +96,9 @@ class Projects extends React.Component {
                   Finally, we displayed the user’s order on a React.js application and displayed the price for each item and the total cost.
                 </Card.Text>
                 <div style={{float: "right"}}>
+                    <button className="project-buttons" onClick={this.toggleVO} rel="noopener noreferrer">
+                      <Image className='project-icons' src={gallery} fluid alt='Gallery'/>
+                    </button>
                     <a href="https://devpost.com/software/voiceorder" target="_blank" rel="noopener noreferrer">
                         <Image className='project-icons' src={devpost} fluid alt='Devpost'/>
                     </a>
@@ -151,9 +186,9 @@ class Projects extends React.Component {
                   Every enemy has a number associated with it, and to attack the enemy, the player must connect a string of numbers on the board to create a number divisible by the associated number.
                 </Card.Text>
                 <div style={{float: "right"}}>
-                  <a style={{cursor: "pointer"}} onClick={this.toggleModal} rel="noopener noreferrer">
+                  <button className="project-buttons" onClick={this.togglePAD} rel="noopener noreferrer">
                     <Image className='project-icons' src={youtube} fluid alt='Video'/>
-                  </a>
+                  </button>
                 </div>
               </Card.Body>
               <ListGroup className="list-group-flush">
@@ -193,12 +228,12 @@ class Projects extends React.Component {
                   Currently, I am working on a remastered version in Unity.
                 </Card.Text>
                 <div style={{float: "right"}}>
-                  <a style={{cursor: "pointer"}} onClick={this.toggleModal} rel="noopener noreferrer">
+                  <button className="project-buttons" onClick={this.toggleTDX_V} rel="noopener noreferrer">
                     <Image className='project-icons' src={youtube} fluid alt='Video'/>
-                  </a>
-                  <a style={{cursor: "pointer"}} onClick={this.toggleModal} rel="noopener noreferrer">
+                  </button>
+                  <button className="project-buttons" onClick={this.toggleTDX} rel="noopener noreferrer">
                     <Image className='project-icons' src={gallery} fluid alt='Gallery'/>
-                  </a>
+                  </button>
                 </div>
               </Card.Body>
               <ListGroup className="list-group-flush">

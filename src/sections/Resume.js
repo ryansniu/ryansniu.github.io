@@ -31,7 +31,7 @@ const Resume = () => {
           <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} width={pdfWidth}/>
         </Document>
       </Row>
-      <text>Feel free to download my resume <a href={resume} target="_blank">here</a>.</text>
+      <text>Feel free to download my resume <a href={resume} target="_blank" rel="noopener noreferrer">here</a>.</text>
     </Container>
   );
 }

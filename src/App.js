@@ -8,7 +8,6 @@ import Resume from './sections/Resume'
 import Footer from './sections/Footer'
 import './App.css'
 
-
 const App = () => (
     <>
         <StickyNav/>
