@@ -16,10 +16,10 @@ const Welcome = () => {
                 </Col>
                 <Col lg={5} className='intro-text'>
                     <h1 style={{fontSize: 50}}>Hi, I'm Ryan!</h1>
-                    <text>Computer Engineer from UC Santa Barbara
-                        trying to learn webdev but it clearly is a struggle.
-                        This website is also under construction.
-                        Try not to break anything!
+                    <text>
+                        A Computer Engineering student at UC Santa Barbara
+                        that's passionate about working with technology and 
+                        developing software solutions for real-world problems.
                     </text>
                     <div>
                         <a href="https://github.com/ryansniu" target="_blank" rel="noopener noreferrer">

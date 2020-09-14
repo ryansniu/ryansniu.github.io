@@ -1,0 +1,37 @@
+.about {
+    padding: 2rem;
+    text-align: center;
+    color:white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f1f1f;
+}
+
+.about-row {
+    justify-content: center;
+    align-items: center;
+    max-width: 120rem;
+    animation: default-anim 0.8s ease;
+    animation-fill-mode: both;
+}
+
+.about-img {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    max-height: 42rem;
+}
+
+.about-text {
+    padding: 0 2rem 0 2rem;
+    color:#CCCECF;
+    max-height: 60rem;
+    max-width: 50rem;
+}
+
+.about-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

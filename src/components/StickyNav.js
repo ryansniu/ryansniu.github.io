@@ -1,7 +1,6 @@
 import React, { useLayoutEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 import { Navbar, Nav } from 'react-bootstrap'
-import './StickyNav.css'
 
 function useWindowSize() {
   const [size, setSize] = useState([0, 0]);

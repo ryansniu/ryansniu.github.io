@@ -3,4 +3,7 @@
     text-align: center;
     color:white;
     background-color: #1f1f1f;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }

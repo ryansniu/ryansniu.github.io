@@ -2,11 +2,17 @@
     padding: 2rem;
     text-align: center;
     color:white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
     background-color: #1f1f1f;
 }
 .project-stack {
     justify-content: center;
     align-items: stretch;
+    max-width: 120rem;
+    animation: default-anim 0.8s ease;
+    animation-fill-mode: both;
 }
 .project-deck {
     padding: 0 1rem 0 1rem;
@@ -37,6 +43,13 @@
 
 .project-modal .modal-content {
     background-color: #1f1f1f;
+    width: auto;
+}
+.project-video .modal-content{
+    background-color: #1f1f1f;
+}
+.modal-dialog {
+    justify-content: center;
 }
 
 .carousel-control-prev-icon {

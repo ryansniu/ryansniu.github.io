@@ -25,7 +25,6 @@ const Resume = () => {
   return (
     <Container fluid className="resume" id="resume">
       <h1>Resume</h1>
-      <h5>My skills, experience, and portfolio on a single page.</h5>
       <Row className="resume-pdf">
         <Document file={resume}>
           <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} width={pdfWidth}/>

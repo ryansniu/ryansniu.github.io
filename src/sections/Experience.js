@@ -9,7 +9,6 @@ import streetCode from '../assets/experience/streetcode-academy.png'
 const Experience = () => (
   <Container fluid className="experience" id="experience">
     <h1>Experience</h1>
-    <h5>A summary of my skills in the industry.</h5>
 
     <Row fluid className="project-stack">
       <Col fluid lg={5} className="project-deck">

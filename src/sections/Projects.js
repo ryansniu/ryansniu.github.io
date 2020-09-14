@@ -27,7 +27,6 @@ class Projects extends React.Component {
     return(
       <Container fluid className="projects" id="projects">
         <h1>Projects</h1>
-        <h5>A comprehensive portfolio of my personal projects.</h5>
 
         <Modal centered size="xl" show={this.state.showVO} onHide={this.toggleVO} className="project-modal">
           <Modal.Body>
@@ -42,7 +41,7 @@ class Projects extends React.Component {
           </Modal.Body>
         </Modal>
 
-        <Modal centered size="xl" show={this.state.showPAD} onHide={this.togglePAD} className="project-modal">
+        <Modal centered size="xl" show={this.state.showPAD} onHide={this.togglePAD} className="project-video">
           <Modal.Body style={{position: "relative", paddingTop: "56.25%"}}>
             <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/ySQc-nQ6CYI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Modal.Body>
@@ -52,7 +51,7 @@ class Projects extends React.Component {
           <Modal.Body>
             <Carousel slide={false} wrap={false} interval={null}>
               <Carousel.Item>
-                <Image fluid src={tdx1} alt="Presenting"/>
+                <Image style={{maxHeight: "90vh"}} fluid src={tdx1} alt="Presenting"/>
               </Carousel.Item>
               <Carousel.Item>
                 <Image fluid src={tdx2} alt="Presentation"/>
@@ -64,7 +63,7 @@ class Projects extends React.Component {
           </Modal.Body>
         </Modal>
 
-        <Modal centered size="xl" show={this.state.showTDX_V} onHide={this.toggleTDX_V} className="project-modal">
+        <Modal centered size="xl" show={this.state.showTDX_V} onHide={this.toggleTDX_V} className="project-video">
           <Modal.Body style={{position: "relative", paddingTop: "56.25%"}}>
             <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/ySQc-nQ6CYI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </Modal.Body>
@@ -181,9 +180,11 @@ class Projects extends React.Component {
               <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
                 <Card.Text style={{minHeight: "calc(100% - 3.1rem)", paddingBottom: "0"}}>
                   Primes and Dragons is a mathematical puzzle RPG that I originally created in Spring 2016 as a Java game project.
-                  I have since ported the game onto Unity and I am currently polishing the game's graphics and music so I can release it on PC and Android.
+                  
                   The player must fight their way out of a dungeon, but there's a twist!
                   Every enemy has a number associated with it, and to attack the enemy, the player must connect a string of numbers on the board to create a number divisible by the associated number.
+                  
+                  I have since ported the game onto Unity and I am currently polishing the game's graphics and music so I can release it on PC and Android.
                 </Card.Text>
                 <div style={{float: "right"}}>
                   <button className="project-buttons" onClick={this.togglePAD} rel="noopener noreferrer">
@@ -222,9 +223,10 @@ class Projects extends React.Component {
               </Card.Body>
               <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
                 <Card.Text style={{minHeight: "calc(100% - 3.1rem)", paddingBottom: "0"}}>
-                  Touhou DX is a calculus-based bullet hell game created in February 2018 at the CodeDay Bay Area Hackathon at Horizons, SF, and was originally written entirely in Java.
+                  Touhou DX is a calculus-based bullet-hell game originally created in February 2018 at the CodeDay Bay Area Hackathon at Horizons, SF.
+
                   The player finds themselves on a 2D-coordinate plane and must defeat wacky math-based enemies while dodging their projectiles and functions!
-                  I learned a lot from writing this program, such as writing an update function from scratch in Java, and using lambdas and abstract classes to make the projectiles move as a function of time, allowing me to create fancy-looking bullet patterns.
+
                   Currently, I am working on a remastered version in Unity.
                 </Card.Text>
                 <div style={{float: "right"}}>
