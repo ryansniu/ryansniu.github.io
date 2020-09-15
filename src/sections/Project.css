@@ -1,5 +1,5 @@
 .projects {
-    padding: 2rem;
+    padding: 10vh 2rem 2rem 2rem;
     text-align: center;
     color:white;
     display: grid;
@@ -45,24 +45,29 @@
     background-color: #1f1f1f;
     width: auto;
 }
+
 .project-video .modal-content{
     background-color: #1f1f1f;
 }
 .modal-dialog {
     justify-content: center;
 }
+.project-modal-img {
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+}
 
 .carousel-control-prev-icon {
     width: 2rem;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    height: 2.71828183rem;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231f1f1f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
 .carousel-control-next-icon {
     width: 2rem;
-    height: 3rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    height: 2.71828183rem;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231f1f1f' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }

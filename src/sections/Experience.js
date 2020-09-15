@@ -16,14 +16,10 @@ const Experience = () => (
           <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
             <Card.Title>
               <Image src={sbHacks} className="project-img" alt="SB Hacks VII"/>
-              <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                <text style={{fontSize: "1.5rem"}}>
-                  SB Hacks VII
-                  <br/><br/><br/><br/>
-                  <i style={{color: "#9A9DA0", fontSize: "1rem"}}>Hackathon Organizer</i>
-                  <br/><br/><br/>
-                  <text style={{color: "#9A9DA0", fontSize: "1rem"}}>March 2020 - Present</text>
-                </text>
+              <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                <h5>SB Hacks VII</h5>
+                <p><i style={{color: "#9A9DA0"}}>Hackathon Organizer</i></p>
+                <p style={{color: "#9A9DA0"}}>March 2020 - Present</p>
               </div>
             </Card.Title>
           </Card.Body>
@@ -31,13 +27,13 @@ const Experience = () => (
             <Card.Text>
               <ul>
                 <li>
-                  Participated in weekly meetings to plan out the 350+ person event.
+                  Participating in weekly meetings to discuss and plan out the 350+ person event.
                 </li>
                 <li>
-                  Corresponded with many tech companies and startups to gain sponsorships and fund the hackathon.
+                  Corresponding with many tech companies and startups to gain sponsorships and fund the hackathon.
                 </li>
                 <li>
-                  Assisted with the logistics of moving the hackathon to virtual.
+                  Assisting with the logistics of moving the hackathon from an in-person event to a virtual one.
                 </li>
               </ul>
             </Card.Text>
@@ -50,14 +46,10 @@ const Experience = () => (
           <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
             <Card.Title>
               <Image src={UCSBGDC} className="project-img" alt="UCSB GDC"/>
-              <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                <text style={{fontSize: "1.5rem"}}>
-                  UCSB Game Dev Club
-                  <br/><br/><br/><br/>
-                  <i style={{color: "#9A9DA0", fontSize: "1rem"}}>Outreach Officer</i>
-                  <br/><br/><br/>
-                  <text style={{color: "#9A9DA0", fontSize: "1rem"}}>March 2020 - Present</text>
-                </text>
+              <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                <h5>UCSB Game Dev Club</h5>
+                <p><i style={{color: "#9A9DA0"}}>Outreach Officer</i></p>
+                <p style={{color: "#9A9DA0"}}>March 2020 - Present</p>
               </div>
             </Card.Title>
           </Card.Body>
@@ -68,10 +60,10 @@ const Experience = () => (
                   Connected the club with the games industry by reaching out and hosting online Q&A sessions with experienced developers. 
                 </li>
                 <li>
-                  Organized and participated in the club’s yearly 20+ person game jam.
+                  Organized and participated in the club’s annual 20+ person game jam, which helped introduce new members to the club.
                 </li>
                 <li>
-                  Currently preparing the ongoing club schedule for the Fall quarter.
+                  Preparing the ongoing club schedule for the Fall quarter and working out the logistics of virtual club meetings and events.
                 </li>
               </ul>
             </Card.Text>
@@ -86,14 +78,10 @@ const Experience = () => (
           <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
             <Card.Title>
               <Image src={MVHS} className="project-img" alt="MVHS APCS"/>
-              <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                <text style={{fontSize: "1.5rem"}}>
-                  Monta Vista HS
-                  <br/><br/><br/><br/>
-                  <i style={{color: "#9A9DA0", fontSize: "1rem"}}>APCS Student Tutor</i>
-                  <br/><br/><br/>
-                  <text style={{color: "#9A9DA0", fontSize: "1rem"}}>Aug 2018 - Jun 2019</text>
-                </text>
+              <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                <h5>Monta Vista HS</h5>
+                <p><i style={{color: "#9A9DA0"}}>APCS Student Tutor</i></p>
+                <p style={{color: "#9A9DA0"}}>Aug 2018 - Jun 2019</p>
               </div>
             </Card.Title>
           </Card.Body>
@@ -101,13 +89,13 @@ const Experience = () => (
             <Card.Text>
               <ul>
                 <li>
-                  Assisted the AP Computer Science A teacher by grading papers and answering student questions about their code.
+                  Assisted AP Computer Science A teachers by grading papers and answering student questions relating to the material.
                 </li>
                 <li>
-                  Tutored a class of 30+ high school students in a Java/Linux-based computer environment lab in preparation for the AP test. 
+                  Tutored a class of 30+ high school students in a Linux-based computer environment lab in preparation for the AP test.
                 </li>
                 <li>
-                  Helped students debug their code while maintaining a “hands-off the keyboard” approach.
+                  Debugged students’ complex Java programs while maintaining a “hands-off the keyboard” approach.
                 </li>
               </ul>
             </Card.Text>
@@ -120,14 +108,10 @@ const Experience = () => (
           <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
             <Card.Title>
               <Image src={streetCode} className="project-img" alt="Street Code"/>
-              <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                <text style={{fontSize: "1.5rem"}}>
-                  StreetCode Academy
-                  <br/><br/><br/><br/>
-                  <i style={{color: "#9A9DA0", fontSize: "1rem"}}>Game Design Mentor</i>
-                  <br/><br/><br/>
-                  <text style={{color: "#9A9DA0", fontSize: "1rem"}}>Jul 2018 - Aug 2018</text>
-                </text>
+              <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                <h5>StreetCode Academy</h5>
+                <p><i style={{color: "#9A9DA0"}}>Game Design Mentor</i></p>
+                <p style={{color: "#9A9DA0"}}>Jul 2018 - Aug 2018</p>
               </div>
             </Card.Title>
           </Card.Body>

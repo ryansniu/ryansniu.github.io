@@ -32,10 +32,10 @@ class Projects extends React.Component {
           <Modal.Body>
             <Carousel slide={false} wrap={false} interval={null}>
               <Carousel.Item>
-                <Image fluid src={vo1} alt="Presentation"/>
+                <Image className="project-modal-img" fluid src={vo1} alt="Presentation"/>
               </Carousel.Item>
               <Carousel.Item>
-                <Image fluid src={vo2} alt="Award"/>
+                <Image className="project-modal-img" fluid src={vo2} alt="Award"/>
               </Carousel.Item>
             </Carousel>
           </Modal.Body>
@@ -51,13 +51,13 @@ class Projects extends React.Component {
           <Modal.Body>
             <Carousel slide={false} wrap={false} interval={null}>
               <Carousel.Item>
-                <Image style={{maxHeight: "90vh"}} fluid src={tdx1} alt="Presenting"/>
+                <Image className="project-modal-img" fluid src={tdx1} alt="Presenting"/>
               </Carousel.Item>
               <Carousel.Item>
-                <Image fluid src={tdx2} alt="Presentation"/>
+                <Image className="project-modal-img" fluid src={tdx2} alt="Presentation"/>
               </Carousel.Item>
               <Carousel.Item>
-                <Image fluid src={tdx3} alt="Award"/>
+                <Image className="project-modal-img" fluid src={tdx3} alt="Award"/>
               </Carousel.Item>
             </Carousel>
           </Modal.Body>
@@ -75,14 +75,10 @@ class Projects extends React.Component {
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
                   <Image src={voiceOrder} className="project-img" alt="Voice Order"/>
-                  <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                    <text style={{fontSize: "1.5rem"}}>
-                      Voice Order
-                      <br/><br/><br/><br/>
-                      <i style={{color: "#9A9DA0", fontSize: "1rem"}}>SB Hacks VI</i>
-                      <br/><br/><br/>
-                      <b style={{color: "gold", fontSize: "1rem"}}>Best Amazon Alexa Skill</b>
-                    </text>
+                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                    <h5>Voice Order</h5>
+                    <p><i style={{color: "#9A9DA0"}}>SB Hacks VI</i></p>
+                    <p><b style={{color: "gold"}}>Best Amazon Alexa Skill</b></p>
                   </div>
                 </Card.Title>
               </Card.Body>
@@ -124,12 +120,9 @@ class Projects extends React.Component {
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
                   <Image src={blueSpot} className="project-img" alt="Blue Spot"/>
-                  <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                    <text style={{fontSize: "1.5rem"}}>
-                      Blue Spot
-                      <br/><br/><br/><br/>
-                      <i style={{color: "#9A9DA0", fontSize: "1rem"}}>TreeHacks 2020</i>
-                    </text>
+                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.2rem", paddingTop: "0"}}>
+                    <h5>Blue Spot</h5>
+                    <p><i style={{color: "#9A9DA0"}}>TreeHacks 2020</i></p>
                   </div>
                 </Card.Title>
               </Card.Body>
@@ -168,12 +161,9 @@ class Projects extends React.Component {
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
                   <Image src={primesAndDragons} className="project-img" alt="Primes and Dragons"/>
-                  <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                    <text style={{fontSize: "1.5rem"}}>
-                      Primes and Dragons
-                      <br/><br/><br/><br/>
-                      <i style={{color: "#9A9DA0", fontSize: "1rem"}}>Ongoing Solo Project</i>
-                    </text>
+                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.2rem", paddingTop: "0"}}>
+                    <h5>Primes and Dragons</h5>
+                    <p><i style={{color: "#9A9DA0"}}>Ongoing Solo Project</i></p>
                   </div>
                 </Card.Title>
               </Card.Body>
@@ -210,14 +200,10 @@ class Projects extends React.Component {
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
                   <Image src={touhouDX} className="project-img" alt="Touhou DX"/>
-                  <div style={{lineHeight: "0.23rem", paddingTop: "0.6rem"}}>
-                    <text style={{fontSize: "1.5rem"}}>
-                      Touhou DX
-                      <br/><br/><br/><br/>
-                      <i style={{color: "#9A9DA0", fontSize: "1rem"}}>CodeDay Bay Area 2018</i>
-                      <br/><br/><br/>
-                      <b style={{color: "gold", fontSize: "1rem"}}>Best Game</b>
-                    </text>
+                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                    <h5>Touhou DX</h5>
+                    <p><i style={{color: "#9A9DA0"}}>CodeDay Bay Area 2018</i></p>
+                    <p><b style={{color: "gold"}}>Best Game</b></p>
                   </div>
                 </Card.Title>
               </Card.Body>
