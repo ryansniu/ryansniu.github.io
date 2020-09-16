@@ -43,7 +43,7 @@ class Projects extends React.Component {
 
         <Modal centered size="xl" show={this.state.showPAD} onHide={this.togglePAD} className="project-video">
           <Modal.Body style={{position: "relative", paddingTop: "56.25%"}}>
-            <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/ySQc-nQ6CYI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="Primes and Dragons Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/X6jUf1HKb88" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </Modal.Body>
         </Modal>
 
@@ -65,7 +65,7 @@ class Projects extends React.Component {
 
         <Modal centered size="xl" show={this.state.showTDX_V} onHide={this.toggleTDX_V} className="project-video">
           <Modal.Body style={{position: "relative", paddingTop: "56.25%"}}>
-            <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/ySQc-nQ6CYI" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="TouhouDX Gameplay" style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}} src="https://www.youtube.com/embed/LSEb7DvI_mQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
           </Modal.Body>
         </Modal>
 
@@ -168,13 +168,13 @@ class Projects extends React.Component {
                 </Card.Title>
               </Card.Body>
               <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
-                <Card.Text style={{minHeight: "calc(100% - 3.1rem)", paddingBottom: "0"}}>
-                  Primes and Dragons is a mathematical puzzle RPG that I originally created in Spring 2016 as a Java game project.
-                  
-                  The player must fight their way out of a dungeon, but there's a twist!
+                <Card.Text style={{minHeight: "calc(100% - 3.2rem)", paddingBottom: "0"}}>
+                  Originally created back in 2016 for my high school educational game project, Primes and Dragons is a mathematical puzzle RPG that I started in Java.
+                  The objective of the game is to fight your way out of a dungeon, but there's a twist!
                   Every enemy has a number associated with it, and to attack the enemy, the player must connect a string of numbers on the board to create a number divisible by the associated number.
-                  
                   I have since ported the game onto Unity and I am currently polishing the game's graphics and music so I can release it on PC and Android.
+                  <br/>
+                  <i style={{fontSize: "12px", color: "#9A9DA0"}}>(Unfortunately I put 0 points into my art skills, so this might take a while...)</i>
                 </Card.Text>
                 <div style={{float: "right"}}>
                   <button className="project-buttons" onClick={this.togglePAD} rel="noopener noreferrer">
@@ -208,12 +208,11 @@ class Projects extends React.Component {
                 </Card.Title>
               </Card.Body>
               <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
-                <Card.Text style={{minHeight: "calc(100% - 3.1rem)", paddingBottom: "0"}}>
-                  Touhou DX is a calculus-based bullet-hell game originally created in February 2018 at the CodeDay Bay Area Hackathon at Horizons, SF.
-
-                  The player finds themselves on a 2D-coordinate plane and must defeat wacky math-based enemies while dodging their projectiles and functions!
-
-                  Currently, I am working on a remastered version in Unity.
+                <Card.Text style={{minHeight: "calc(100% - 3.2rem)", paddingBottom: "0"}}>
+                  Ever wanted to play an action-packed shooting while learning about calculus? Well, me neither.
+                  That's why I challenged myself to make calculus fun to learn by developing Touhou DX, a math-based bullet-hell game originally created in February 2018 at the CodeDay Bay Area Hackathon at Horizons, SF.
+                  The player finds themselves on a 2D-coordinate plane and must defeat enemies who's attacks are all based on math, from parametric projectiles to function obstacles!
+                  Currently, I am working on a remastered version in Unity using C#.
                 </Card.Text>
                 <div style={{float: "right"}}>
                   <button className="project-buttons" onClick={this.toggleTDX_V} rel="noopener noreferrer">

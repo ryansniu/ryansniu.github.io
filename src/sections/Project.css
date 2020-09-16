@@ -51,6 +51,8 @@
 }
 .modal-dialog {
     justify-content: center;
+    scrollbar-color: #CCCECF #1F1F1F !important;
+    scrollbar-width: thin !important;
 }
 .project-modal-img {
     max-height: calc(100vh - 90px);
