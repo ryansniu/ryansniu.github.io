@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4939a36ac67b22b5367b8e05d442594",
+    "revision": "0ce38cf3195798355202e192ac946913",
     "url": "/index.html"
   },
   {
-    "revision": "0d5e6ed24c614705ffbe",
+    "revision": "ea02facd68fcf6d1c389",
     "url": "/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "32586f9a65a79adb2c04",
-    "url": "/static/css/main.89282ccd.chunk.css"
+    "revision": "bfbf905d8347806a4f02",
+    "url": "/static/css/main.a4a4c744.chunk.css"
   },
   {
-    "revision": "0d5e6ed24c614705ffbe",
-    "url": "/static/js/2.696a209a.chunk.js"
+    "revision": "ea02facd68fcf6d1c389",
+    "url": "/static/js/2.d5db8eac.chunk.js"
   },
   {
     "revision": "b8e8ac08803af9f50f2545aeddab3ac2",
-    "url": "/static/js/2.696a209a.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d5db8eac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32586f9a65a79adb2c04",
-    "url": "/static/js/main.da06ec88.chunk.js"
+    "revision": "bfbf905d8347806a4f02",
+    "url": "/static/js/main.da765a01.chunk.js"
   },
   {
     "revision": "a8efe39c8c6451650447",
     "url": "/static/js/runtime-main.b1f0b2ba.js"
+  },
+  {
+    "revision": "4e0c5cce1e4e31b7a524d1ac02de628a",
+    "url": "/static/media/Ryan Niu - Resume.4e0c5cce.pdf"
   },
   {
     "revision": "35784e79030e902f0b764b5f7c98dc3b",
@@ -60,16 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/presenting.f34c718b.jpg"
   },
   {
-    "revision": "63761238eba46c8ad89a5de2744d169b",
-    "url": "/static/media/resume.63761238.pdf"
-  },
-  {
     "revision": "6848806dea4a06679940e442a00a09f9",
     "url": "/static/media/streetcode-academy.6848806d.png"
-  },
-  {
-    "revision": "740b051304977105c1636f727f5760f8",
-    "url": "/static/media/touhou-dx.740b0513.png"
   },
   {
     "revision": "489ce660058c5311a7c59c7babced7b5",
