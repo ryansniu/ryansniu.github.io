@@ -26,7 +26,7 @@ class Projects extends React.Component {
   render(){
     return(
       <Container fluid className="projects" id="projects">
-        <h1>Projects</h1>
+        <h1 style={{fontSize: "50px"}}>Projects</h1>
 
         <Modal centered size="xl" show={this.state.showVO} onHide={this.toggleVO} className="project-modal">
           <Modal.Body>
@@ -82,7 +82,7 @@ class Projects extends React.Component {
                   </div>
                 </Card.Title>
               </Card.Body>
-              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
                 <Card.Text style={{minHeight: "calc(100% - 3.5rem)", paddingBottom: "0"}}>
                   VoiceOrder is a general-purpose voice AI that helps automate ordering at drive-thru services and small businesses.
                   Companies can waste thousands of dollars building custom speech recognition bots, and this application replaces the time and money spent to create one with a simple Amazon Echo.
@@ -126,7 +126,7 @@ class Projects extends React.Component {
                   </div>
                 </Card.Title>
               </Card.Body>
-              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
                 <Card.Text style={{minHeight: "calc(100% - 3.5rem)", paddingBottom: "0"}}>
                   BlueSpot is a nifty mobile AR message visualization application designed for posting location-specific messages. 
                   Users walk around the physical world, typing messages and dropping them in "blue spots" for others to discover and read them. 
@@ -148,7 +148,7 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Unity Engine, Firebase, ARFoundation
+                  Unity Engine, Visual Studio, Firebase, ARFoundation
                 </ListGroupItem>
               </ListGroup>
             </Card>
@@ -167,7 +167,7 @@ class Projects extends React.Component {
                   </div>
                 </Card.Title>
               </Card.Body>
-              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
                 <Card.Text style={{minHeight: "calc(100% - 3.2rem)", paddingBottom: "0"}}>
                   Originally created back in 2016 for my high school educational game project, Primes and Dragons is a mathematical puzzle RPG that I started in Java.
                   The objective of the game is to fight your way out of a dungeon, but there's a twist!
@@ -189,7 +189,7 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Unity Engine
+                  Unity Engine, Visual Studio, Aseprite
                 </ListGroupItem>
               </ListGroup>
             </Card>
@@ -207,7 +207,7 @@ class Projects extends React.Component {
                   </div>
                 </Card.Title>
               </Card.Body>
-              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
                 <Card.Text style={{minHeight: "calc(100% - 3.2rem)", paddingBottom: "0"}}>
                   Ever wanted to play an action-packed shooting while learning about calculus? Well, me neither.
                   That's why I challenged myself to make calculus fun to learn by developing Touhou DX, a math-based bullet-hell game originally created in February 2018 at the CodeDay Bay Area Hackathon at Horizons, SF.
@@ -230,7 +230,7 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Unity Engine
+                  Unity Engine, Visual Studio, Aseprite
                 </ListGroupItem>
               </ListGroup>
             </Card>

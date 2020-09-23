@@ -1,0 +1,16 @@
+.navbar-nav > .active > a {
+    color: gold !important;   
+}
+.navbar-nav > .active > a:focus {
+    color: gold !important;   
+}
+.navbar-nav > .active > a:hover {
+    color: gold !important;   
+}
+
+.sticky-nav-item > a:focus {
+    color: goldenrod !important;
+}
+.sticky-nav-item > a:hover {
+    color: goldenrod !important;
+}

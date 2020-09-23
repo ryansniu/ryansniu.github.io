@@ -5,7 +5,7 @@ import treehacks from '../assets/about/treehacks.JPG'
 
 const About = () => (
   <Container fluid className="about" id="about">
-      <h1>About</h1>
+      <h1 style={{fontSize: "50px"}}>About</h1>
 
       <Row fluid className="about-row">
         <Col xl={5}>

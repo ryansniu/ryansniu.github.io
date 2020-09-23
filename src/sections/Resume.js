@@ -2,7 +2,7 @@ import React, { useLayoutEffect, useState } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import { Document, Page, pdfjs } from 'react-pdf'
 import './Resume.css'
-import resume from '../assets/resume.pdf'
+import resume from '../assets/Ryan Niu - Resume.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -24,7 +24,7 @@ const Resume = () => {
   var pdfWidth = Math.min(width - 50, 1024);
   return (
     <Container fluid className="resume" id="resume">
-      <h1>Resume</h1>
+      <h1 style={{fontSize: "50px"}}>Resume</h1>
       <Row className="resume-pdf">
         <Document file={resume}>
           <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} width={pdfWidth}/>

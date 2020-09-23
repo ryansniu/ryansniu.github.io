@@ -1,6 +1,6 @@
 html {
   min-height: 100vh;
-  scrollbar-color: #CCCECF #1F1F1F !important;
+  scrollbar-color: darkblue #1F1F1F !important;
 }
 
 body {
@@ -10,6 +10,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000;
+  background-image: linear-gradient(135deg, #000000 0%, #130F40 25%, #000000 50%, #130F40 75%, #000000 100%);
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

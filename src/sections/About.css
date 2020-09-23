@@ -5,7 +5,6 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    background-color: #1f1f1f;
 }
 
 .about-row {
@@ -25,7 +24,7 @@
 
 .about-text {
     padding: 0 2rem 0 2rem;
-    color:#CCCECF;
+    color:#DEDEDE;
     max-height: 60rem;
     max-width: 50rem;
 }

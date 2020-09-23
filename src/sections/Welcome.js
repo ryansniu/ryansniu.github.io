@@ -17,7 +17,7 @@ const Welcome = () => {
                 <Col lg={5} className='intro-text'>
                     <h1 style={{fontSize: 50}}>Hi, I'm Ryan!</h1>
                     <text>
-                        A Computer Engineering student at UC Santa Barbara
+                        Computer Engineering student at UC Santa Barbara
                         that's passionate about working with technology and 
                         developing software solutions for real-world problems.
                     </text>

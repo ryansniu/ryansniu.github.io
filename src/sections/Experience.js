@@ -8,7 +8,7 @@ import streetCode from '../assets/experience/streetcode-academy.png'
 
 const Experience = () => (
   <Container fluid className="experience" id="experience">
-    <h1>Experience</h1>
+    <h1 style={{fontSize: "50px"}}>Experience</h1>
 
     <Row fluid className="project-stack">
       <Col fluid lg={5} className="project-deck">
@@ -23,7 +23,7 @@ const Experience = () => (
               </div>
             </Card.Title>
           </Card.Body>
-          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
             <Card.Text>
               <ul>
                 <li>
@@ -53,7 +53,7 @@ const Experience = () => (
               </div>
             </Card.Title>
           </Card.Body>
-          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
             <Card.Text>
               <ul>
                 <li>
@@ -85,7 +85,7 @@ const Experience = () => (
               </div>
             </Card.Title>
           </Card.Body>
-          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
             <Card.Text>
               <ul>
                 <li>
@@ -115,7 +115,7 @@ const Experience = () => (
               </div>
             </Card.Title>
           </Card.Body>
-          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#CCCECF"}}>
+          <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
             <Card.Text>
               <ul>
                 <li>
