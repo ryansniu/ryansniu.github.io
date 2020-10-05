@@ -63,7 +63,7 @@ const Experience = () => (
                   Organized and participated in the club’s annual 20+ person game jam, which helped introduce new members to the club.
                 </li>
                 <li>
-                  Preparing the ongoing club schedule for the Fall quarter and working out the logistics of virtual club meetings and events.
+                  Hosted workshops to teach club members about the game development process such as game programming and production.
                 </li>
               </ul>
             </Card.Text>
@@ -89,7 +89,7 @@ const Experience = () => (
             <Card.Text>
               <ul>
                 <li>
-                  Assisted AP Computer Science A teachers by grading papers and answering student questions relating to the material.
+                  Assisted AP Computer Science A teachers by answering student questions about programming and object-oriented design.
                 </li>
                 <li>
                   Tutored a class of 30+ high school students in a Linux-based computer environment lab in preparation for the AP test.
