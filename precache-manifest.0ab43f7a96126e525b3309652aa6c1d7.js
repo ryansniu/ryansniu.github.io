@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf97a86a7b3c0179438011d68c0542ce",
+    "revision": "173befddaa1fd872f12887e1e2aec3e3",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "6268234688f4138834fb",
+    "revision": "078ec2b2a9f04af265b1",
     "url": "/static/css/main.a4a4c744.chunk.css"
   },
   {
@@ -20,16 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d5db8eac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6268234688f4138834fb",
-    "url": "/static/js/main.f2e16cc7.chunk.js"
+    "revision": "078ec2b2a9f04af265b1",
+    "url": "/static/js/main.2335959f.chunk.js"
   },
   {
     "revision": "a8efe39c8c6451650447",
     "url": "/static/js/runtime-main.b1f0b2ba.js"
   },
   {
-    "revision": "e6d194c4735917e844ab40dded5f895d",
-    "url": "/static/media/Ryan Niu - Resume.e6d194c4.pdf"
+    "revision": "b648cc3983474a6fbc2bf2f9c0727765",
+    "url": "/static/media/Ryan Niu - Resume.b648cc39.pdf"
   },
   {
     "revision": "35784e79030e902f0b764b5f7c98dc3b",
