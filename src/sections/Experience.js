@@ -27,13 +27,13 @@ const Experience = () => (
             <Card.Text>
               <ul>
                 <li>
-                  Organizing the 7th iteration of UCSB's annual hackathon, a 350+ person event that bring students from various universities and disciplines together to collaborate on projects.
+                  Organized the 7th iteration of UCSB's annual hackathon, a 350+ person event that bring students from various universities and disciplines together to collaborate on projects. Assisted with the judging, logistics, and hacker experience for SB Hacks VII.
                 </li>
                 <li>
-                  Corresponding with tech companies and startups to maintain relationships with sponsors and gain potential new sponsors.
+                  Actively corresponded with companies and organizations to build and maintain relationships with sponsors, raising over $22k in monetary value. Coordinated with company representatives to host and judge their sponsor API challenges.
                 </li>
                 <li>
-                  Planning to host a workshop designed introduce programming to beginners prior to the hackathon.
+                  Prepared and taught the “Intro to Game Development” workshop designed introduce programming to beginner hackers.
                 </li>
               </ul>
             </Card.Text>
