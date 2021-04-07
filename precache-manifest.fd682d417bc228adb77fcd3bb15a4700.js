@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f509e69ba2b02894678e88f26cf6baa9",
+    "revision": "78412c2417dbb259bf0e49ca2369aa47",
     "url": "/index.html"
   },
   {
-    "revision": "ea02facd68fcf6d1c389",
+    "revision": "a3168c50f0fda5ba4654",
     "url": "/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "05a617eb5335fa13a1c9",
-    "url": "/static/css/main.a4a4c744.chunk.css"
+    "revision": "2fe2e2111a9b91bdddaf",
+    "url": "/static/css/main.09d27595.chunk.css"
   },
   {
-    "revision": "ea02facd68fcf6d1c389",
-    "url": "/static/js/2.d5db8eac.chunk.js"
+    "revision": "a3168c50f0fda5ba4654",
+    "url": "/static/js/2.b56fe66e.chunk.js"
   },
   {
     "revision": "b8e8ac08803af9f50f2545aeddab3ac2",
-    "url": "/static/js/2.d5db8eac.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b56fe66e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "05a617eb5335fa13a1c9",
-    "url": "/static/js/main.9eb105d4.chunk.js"
+    "revision": "2fe2e2111a9b91bdddaf",
+    "url": "/static/js/main.6eaa0deb.chunk.js"
   },
   {
     "revision": "a8efe39c8c6451650447",
     "url": "/static/js/runtime-main.b1f0b2ba.js"
   },
   {
-    "revision": "276f46dffa5ff6982c4cb3a7da518d0c",
-    "url": "/static/media/Ryan Niu - Resume.276f46df.pdf"
+    "revision": "59b34c3c0d90bce503027148397fa0fd",
+    "url": "/static/media/Ryan Niu - Resume.59b34c3c.pdf"
   },
   {
     "revision": "35784e79030e902f0b764b5f7c98dc3b",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6848806dea4a06679940e442a00a09f9",
     "url": "/static/media/streetcode-academy.6848806d.png"
+  },
+  {
+    "revision": "04d9a283ffbec9372433ebd39647ef4c",
+    "url": "/static/media/training-arc.04d9a283.png"
   },
   {
     "revision": "489ce660058c5311a7c59c7babced7b5",
