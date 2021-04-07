@@ -23,7 +23,7 @@ const StickyNav = () => {
     <Navbar sticky="top" expand="md" variant="dark" style={{alignItems: "center", backgroundColor: "#222"}}>
       <Link to="welcome" smooth={true} offset={-100 + off} duration= {500}>
         <Navbar.Brand>
-          <h2><button className="project-buttons" style={{color: "white"}}>Ryan Niu</button></h2>
+          <h2><button className="project-buttons" style={{color: "#96C9FD"}}>Ryan Niu</button></h2>
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -36,18 +36,18 @@ const StickyNav = () => {
             </Nav.Link>
           </Link>
 
-          <Link className="sticky-nav-item" to="experience" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
-            <Nav.Link>
-              <h4>Experience</h4>
-            </Nav.Link>
-          </Link>
-
           <Link className="sticky-nav-item" to="projects" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
             <Nav.Link>
               <h4>Projects</h4>
             </Nav.Link>
           </Link>
           
+          <Link className="sticky-nav-item" to="experience" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
+            <Nav.Link>
+              <h4>Experience</h4>
+            </Nav.Link>
+          </Link>
+
           <Link className="sticky-nav-item" to="resume" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
             <Nav.Link>
               <h4>Resume</h4>

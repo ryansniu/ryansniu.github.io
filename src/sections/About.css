@@ -1,7 +1,7 @@
 .about {
     padding: 2rem;
     text-align: center;
-    color:white;
+    color:#96C9FD;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@
 
 .about-text {
     padding: 0 2rem 0 2rem;
-    color:#DEDEDE;
+    color:#BCD2F0;
     max-height: 60rem;
     max-width: 50rem;
 }

@@ -24,7 +24,7 @@ const Resume = () => {
   var pdfWidth = Math.min(width - 50, 1024);
   return (
     <Container fluid className="resume" id="resume">
-      <h1 style={{fontSize: "50px"}}>Resume</h1>
+      <h1 style={{fontSize: "50px", color: "#96C9FD"}}>Resume</h1>
       <Row className="resume-pdf">
         <Document file={resume}>
           <Page pageNumber={1} renderAnnotationLayer={false} renderTextLayer={false} width={pdfWidth}/>

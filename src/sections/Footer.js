@@ -7,7 +7,7 @@ const Footer = () => (
     <text>
         <i style={{color: "#9A9DA0"}}>This website was built from scratch using React.js, react-bootstrap, react-pdf, and react-scroll.</i>
         <br/>
-        <text style={{color: "#CCCECF"}}>© 2020 Ryan Niu</text>
+        <text style={{color: "#CCCECF"}}>© 2021 Ryan Niu</text>
     </text>
   </Container>
 );

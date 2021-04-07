@@ -13,8 +13,8 @@ const App = () => (
         <StickyNav/>
         <Welcome/>
         <About/>
-        <Experience/>
         <Projects/>
+        <Experience/>
         <Resume/>
         <Footer/>
     </>

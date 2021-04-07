@@ -1,7 +1,7 @@
 .projects {
-    padding: 10vh 2rem 2rem 2rem;
+    padding: 8vh 2rem 2rem 2rem;
     text-align: center;
-    color:white;
+    color:#96C9FD;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 }
 
 .project-icons {
-    padding: 0 0 0 0.6rem;
+    padding: 0 0.3rem 0 0.3rem;
     max-width: 3.2rem;
 }
 .project-buttons {
