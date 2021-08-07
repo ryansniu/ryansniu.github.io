@@ -15,7 +15,7 @@ const Welcome = () => {
                     <Image className='pfp' src={pfp} roundedCircle fluid alt='Ryan Niu'/>
                 </Col>
                 <Col lg={5} className='intro-text'>
-                    <h1 style={{fontSize: 50, color:'#96C9FD'}}>Hi, I'm Ryan!</h1>
+                    <h1 style={{fontSize: 50, color:'#FFF'}}>Hi, I'm Ryan!</h1>
                     <text>
                         Computer Engineering student at UC Santa Barbara
                         that's passionate about working with technology and 

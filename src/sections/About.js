@@ -10,7 +10,7 @@ const About = () => (
       <Row fluid className="about-row">
         <Col xl={5}>
           <Image src={treehacks} alt="TreeHacks 2020" className="about-img"/>
-          <div style={{color: "#A7B5C8", fontSize: "1.25rem", marginBottom: "2rem"}}>
+          <div style={{color: "#97DEFF", fontSize: "1.25rem", marginBottom: "2rem"}}>
             <text> Here's me and </text>
             <a href="https://connorlien.github.io/" target="_blank" rel="noopener noreferrer">my friend</a>
             <text> at TreeHacks 2020!</text>
@@ -18,7 +18,17 @@ const About = () => (
         </Col>
         <Col xl={7} className="about-text">
           <div className="about-section">
-            <h2 style={{color: "#96C9FD"}}>Bio</h2>
+            <h2 style={{color: "#EEF8FF", marginTop: "2rem"}}>Education</h2>
+            <h4>University of California, Santa Barbara</h4>
+            <h4>B.S. Computer Engineering</h4>
+            <h4>Class of 2023</h4>
+            <h5>
+              <Badge variant="warning">Dean's Honors</Badge>
+              <text> </text>
+              <Badge variant="warning">College of Engineering Honors</Badge>
+            </h5>
+            <div style={{margin: "2rem"}}/>
+            <h2 style={{color: "#EEF8FF"}}>Bio</h2>
             <p style={{textAlign: "left"}}>
               Nice to meet you! 
               I'm Ryan Niu and I like to build a wide variety of software such as video games, SaaS, and even this website!
@@ -27,20 +37,11 @@ const About = () => (
               I enjoy challenging myself and improving my programming skills.
               My goal is to turn my creative ideas into innovative software that people can find useful or enjoyable.
             </p>
-            <p style={{textAlign: "left"}}>
-              Besides being a total computer geek, I am an avid cross-country runner who's training for my next half-marathon.
+            <p style={{textAlign: "left", marginBottom: "4rem"}}>
+              Besides studying computer engineering, I am an avid cross-country runner who's training for my next marathon.
               I also like to immerse myself in music, from playing the piano to transcribing video game music and even creating my own chiptunes.
               Finally, I like to spend my free time studying Japanese and learning about Japanese culture.
             </p>
-            
-            <h2 style={{color: "#96C9FD", marginTop: "2rem"}}>Education</h2>
-            <h4>University of California, Santa Barbara</h4>
-            <h4>B.S. Computer Engineering</h4>
-            <h5>
-              <Badge variant="warning">Dean's Honors</Badge>
-              <text> </text>
-              <Badge variant="warning">College of Engineering Honors</Badge>
-            </h5>
           </div>
         </Col>
       </Row>

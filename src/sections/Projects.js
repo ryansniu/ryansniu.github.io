@@ -6,6 +6,7 @@ import devpost from '../assets/icons/devpost-64.png'
 import link from '../assets/icons/link-64.png'
 import gallery from '../assets/icons/gallery-64.png'
 import youtube from '../assets/icons/youtube-64.png'
+import spotifyTierListmaker from '../assets/projects/spotify-tier-list-maker.png'
 import blueSpot from '../assets/projects/blue-spot.png'
 import voiceOrder from '../assets/projects/voice-order.png'
 import vo1 from '../assets/projects/voiceorder/presentation.jpg'
@@ -73,6 +74,46 @@ class Projects extends React.Component {
 
         <Row fluid className="project-stack">
           <Col fluid lg={5} className="project-deck">
+            <Card className="project-card" bg='dark' border='secondary' text='light'>
+              <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
+                <Card.Title>
+                  <Image src={spotifyTierListmaker} className="project-img" alt="Spotify Tier List Maker"/>
+                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
+                    <h5>Spotify Tier List Maker</h5>
+                    <p><i style={{color: "#9A9DA0"}}>Solo Web Project</i></p>
+                  </div>
+                </Card.Title>
+              </Card.Body>
+              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
+                <Card.Text style={{minHeight: "calc(100% - 3.4rem)", paddingBottom: "0"}}>
+                  Spotify Tier List Maker is a robust interactive website that allows users to create their own tier list of songs, albums, and artists.
+                  I was inspired to create this website after wanting to rank some songs together with friends, but found out that there was no easy way to make a tier list of songs anywhere online!
+                  Thus, I decided to make the Spotify Tier List Maker my summer project in 2021. 
+                  Since then, I've learned so much more about using React.js and REST APIs, and I am ultimately proud of creating a website that others can play around and make their own tier lists.
+                </Card.Text>
+                <div style={{float: "right"}}>
+                    <a href="https://ryansniu.github.io/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
+                      <Image className='project-icons' src={link} fluid alt='Link'/>
+                    </a>
+                    <a href="https://github.com/ryansniu/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
+                        <Image className='project-icons' src={github} fluid alt='GitHub'/>
+                    </a>
+                </div>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
+                  <b style={{color: "#CCCECF"}}>Programming Languages: </b>
+                  React.js, HTML/CSS/JavaScript
+                </ListGroupItem>
+                <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
+                  <b style={{color: "#CCCECF"}}>Technologies: </b>
+                  Spotify API, React Bootstrap
+                </ListGroupItem>
+              </ListGroup>
+            </Card>
+          </Col>
+
+          <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='warning' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
@@ -111,12 +152,14 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Alexa Skills Kit, AWS Lambda, Google Cloud Natural Language API, Firebase, React.js
+                  Alexa Skills Kit, AWS Lambda, Google Cloud NLP API, Firebase, React.js
                 </ListGroupItem>
               </ListGroup>
             </Card>
           </Col>
+        </Row>
     
+        <Row fluid className="project-stack">
           <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='warning' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
@@ -133,9 +176,7 @@ class Projects extends React.Component {
                 <Card.Text style={{minHeight: "calc(100% - 3.4rem)", paddingBottom: "0"}}>
                   In the era of online learning, many students struggle to translate math word problems to algebraic equations that many are more familiar with solving, especially with the lack of personalized feedback.
                   As such, we created TrainingArc, a webapp designed to help students learn to solve complicated word problems with step-by-step examples and practice assessments.
-                  Our project takes a word problem submitted by the user as input and runs it through the Wolfram Alpha Full Result API to generate a JSON with the solution.
-                  The website then parses the JSON and displays the solution along with the step-by-step solutions, if available.
-                  We also have a separate page with a diagnostic quiz that allows the user to assess themselves by solving tagged word problems and determine their progress by seeing what their score is, as well as what percentage of each type of problem they got correct.
+                  Our project takes a word problem submitted by the user as input and runs it through the Wolfram Alpha API to generate and display the solution along with the step-by-step solutions, if available.
                 </Card.Text>
                 <div style={{float: "right"}}>
                   <a href="https://training-arc.herokuapp.com/input-form" target="_blank" rel="noopener noreferrer">
@@ -156,14 +197,12 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Wolfram Alpha API, Flask, HerokuApp, React.js
+                  Wolfram Alpha Full Result API, Flask, HerokuApp, React.js
                 </ListGroupItem>
               </ListGroup>
             </Card>
           </Col>
-        </Row>
-    
-        <Row fluid className="project-stack">
+
           <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='secondary' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
@@ -202,7 +241,9 @@ class Projects extends React.Component {
               </ListGroup>
             </Card>
           </Col>
-    
+        </Row>
+
+        <Row fluid className="project-stack">
           <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='warning' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
@@ -243,8 +284,7 @@ class Projects extends React.Component {
               </ListGroup>
             </Card>
           </Col>
-        </Row>
-        <Row fluid className="project-stack">
+
           <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='secondary' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
@@ -257,13 +297,12 @@ class Projects extends React.Component {
                 </Card.Title>
               </Card.Body>
               <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
-                <Card.Text style={{minHeight: "calc(100% - 3.6rem)", paddingBottom: "0"}}>
+                <Card.Text style={{minHeight: "calc(100% - 3rem)", paddingBottom: "0"}}>
                   Originally created back in 2016 for my high school educational game project, Primes and Dragons is a mathematical puzzle RPG that I started in Java.
                   The objective of the game is to fight your way out of a dungeon, but there's a twist!
                   Every enemy has a number associated with it, and to attack the enemy, the player must connect a string of numbers on the board to create a number divisible by the associated number.
                   I have since ported the game onto Unity and I am currently polishing the game's graphics and music so I can release it on PC and Android.
                   <br/>
-                  <i style={{fontSize: "12px", color: "#9A9DA0"}}>(Unfortunately I put 0 points into my art skills, so this might take a while...)</i>
                 </Card.Text>
                 <div style={{float: "right"}}>
                   <button className="project-buttons" onClick={this.togglePAD} rel="noopener noreferrer">
