@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78412c2417dbb259bf0e49ca2369aa47",
+    "revision": "b6405f7479fd1b0558d778bb556127aa",
     "url": "/index.html"
   },
   {
-    "revision": "a3168c50f0fda5ba4654",
-    "url": "/static/css/2.11829350.chunk.css"
+    "revision": "6cb5587abe868264a429",
+    "url": "/static/css/2.8163d445.chunk.css"
   },
   {
-    "revision": "2fe2e2111a9b91bdddaf",
-    "url": "/static/css/main.09d27595.chunk.css"
+    "revision": "9bfb88a6e4646b06ed0d",
+    "url": "/static/css/main.cb565461.chunk.css"
   },
   {
-    "revision": "a3168c50f0fda5ba4654",
-    "url": "/static/js/2.b56fe66e.chunk.js"
+    "revision": "6cb5587abe868264a429",
+    "url": "/static/js/2.2551aaf0.chunk.js"
   },
   {
     "revision": "b8e8ac08803af9f50f2545aeddab3ac2",
-    "url": "/static/js/2.b56fe66e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.2551aaf0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fe2e2111a9b91bdddaf",
-    "url": "/static/js/main.6eaa0deb.chunk.js"
+    "revision": "9bfb88a6e4646b06ed0d",
+    "url": "/static/js/main.9213363c.chunk.js"
   },
   {
     "revision": "a8efe39c8c6451650447",
     "url": "/static/js/runtime-main.b1f0b2ba.js"
   },
   {
-    "revision": "59b34c3c0d90bce503027148397fa0fd",
-    "url": "/static/media/Ryan Niu - Resume.59b34c3c.pdf"
+    "revision": "f2c296da7f452abb8ff2121e2e1aefbd",
+    "url": "/static/media/Ryan Niu - Resume.f2c296da.pdf"
   },
   {
     "revision": "35784e79030e902f0b764b5f7c98dc3b",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f34c718b6c6dcb29c90ebb2dbb278627",
     "url": "/static/media/presenting.f34c718b.jpg"
+  },
+  {
+    "revision": "2e8c17487bafd598dd6ec48234942783",
+    "url": "/static/media/spotify-tier-list-maker.2e8c1748.png"
   },
   {
     "revision": "6848806dea4a06679940e442a00a09f9",
