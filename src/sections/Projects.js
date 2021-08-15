@@ -89,7 +89,7 @@ class Projects extends React.Component {
                   Spotify Tier List Maker is a robust interactive website that allows users to create their own tier list of songs, albums, and artists.
                   I was inspired to create this website after wanting to rank some songs together with friends, but found out that there was no easy way to make a tier list of songs anywhere online!
                   Thus, I decided to make the Spotify Tier List Maker my summer project in 2021. 
-                  Since then, I've learned so much more about using React.js and REST APIs, and I am ultimately proud of creating a website that others can play around and make their own tier lists.
+                  Since then, I've learned so much more about using React.js and using AWS, and I am ultimately proud of creating a website that others can play around and make their own tier lists.
                 </Card.Text>
                 <div style={{float: "right"}}>
                     <a href="https://ryansniu.github.io/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
@@ -107,7 +107,7 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Spotify API, React Bootstrap
+                  AWS Lambda, AWS API Gateway, AWS Systems Manager, Spotify API, React Bootstrap
                 </ListGroupItem>
               </ListGroup>
             </Card>
@@ -152,7 +152,7 @@ class Projects extends React.Component {
                 </ListGroupItem>
                 <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
                   <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Alexa Skills Kit, AWS Lambda, Google Cloud NLP API, Firebase, React.js
+                  Alexa Skills Kit, AWS Lambda, Google Cloud Natural Language API, Firebase, React.js
                 </ListGroupItem>
               </ListGroup>
             </Card>
