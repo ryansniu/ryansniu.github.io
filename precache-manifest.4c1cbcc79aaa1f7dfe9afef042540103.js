@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e58403b51580fb7005b7ddefcc5805b5",
+    "revision": "99dceaed0287e0413846aa07de0e419e",
     "url": "/index.html"
   },
   {
-    "revision": "6cb5587abe868264a429",
+    "revision": "9656aefe8d6489628dcd",
     "url": "/static/css/2.8163d445.chunk.css"
   },
   {
-    "revision": "5bb5085c0f223a60a46e",
-    "url": "/static/css/main.cb565461.chunk.css"
+    "revision": "2c4b0db8a042aa2730fa",
+    "url": "/static/css/main.116080f0.chunk.css"
   },
   {
-    "revision": "6cb5587abe868264a429",
-    "url": "/static/js/2.2551aaf0.chunk.js"
+    "revision": "9656aefe8d6489628dcd",
+    "url": "/static/js/2.16d83c29.chunk.js"
   },
   {
-    "revision": "b8e8ac08803af9f50f2545aeddab3ac2",
-    "url": "/static/js/2.2551aaf0.chunk.js.LICENSE.txt"
+    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
+    "url": "/static/js/2.16d83c29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5bb5085c0f223a60a46e",
-    "url": "/static/js/main.db368c1a.chunk.js"
+    "revision": "2c4b0db8a042aa2730fa",
+    "url": "/static/js/main.33c84193.chunk.js"
   },
   {
     "revision": "a8efe39c8c6451650447",
@@ -38,14 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a1ef11edabfd002523abeee673b71ca",
     "url": "/static/media/award.8a1ef11e.jpg"
-  },
-  {
-    "revision": "291d6aa8ac0943f695f845b80b562b91",
-    "url": "/static/media/blue-spot.291d6aa8.png"
-  },
-  {
-    "revision": "f356cefbb665a0bb41292ac8e02b5ec8",
-    "url": "/static/media/mvhs.f356cefb.png"
   },
   {
     "revision": "967e84f8ca38071b58e4a29f84a897ba",
@@ -66,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e8c17487bafd598dd6ec48234942783",
     "url": "/static/media/spotify-tier-list-maker.2e8c1748.png"
-  },
-  {
-    "revision": "6848806dea4a06679940e442a00a09f9",
-    "url": "/static/media/streetcode-academy.6848806d.png"
   },
   {
     "revision": "04d9a283ffbec9372433ebd39647ef4c",
