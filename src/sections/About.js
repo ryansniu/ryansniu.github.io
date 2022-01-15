@@ -21,6 +21,7 @@ const About = () => (
             <h2 style={{color: "#EEF8FF", marginTop: "2rem"}}>Education</h2>
             <h4>University of California, Santa Barbara</h4>
             <h4>B.S. Computer Engineering</h4>
+            <h4>Minoring in Japanese</h4>
             <h4>Class of 2023</h4>
             <h5>
               <Badge variant="warning">Dean's Honors</Badge>

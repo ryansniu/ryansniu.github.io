@@ -7,7 +7,6 @@ import link from '../assets/icons/link-64.png'
 import gallery from '../assets/icons/gallery-64.png'
 import youtube from '../assets/icons/youtube-64.png'
 import spotifyTierListmaker from '../assets/projects/spotify-tier-list-maker.png'
-import blueSpot from '../assets/projects/blue-spot.png'
 import voiceOrder from '../assets/projects/voice-order.png'
 import vo1 from '../assets/projects/voiceorder/presentation.jpg'
 import vo2 from '../assets/projects/voiceorder/award.jpg'
@@ -16,7 +15,8 @@ import touhouDX from '../assets/projects/touhou-dx.png'
 import tdx1 from '../assets/projects/touhoudx/presenting.jpg'
 import tdx2 from '../assets/projects/touhoudx/presentation.jpg'
 import tdx3 from '../assets/projects/touhoudx/award.jpg'
-import primesAndDragons from '../assets/projects/primes-and-dragons.png'
+// import blueSpot from '../assets/projects/blue-spot.png'
+// import primesAndDragons from '../assets/projects/primes-and-dragons.png'
 
 class Projects extends React.Component {
   state = { showVO: false, showPAD: false, showTDX: false, showTDX_V:false };
@@ -74,7 +74,7 @@ class Projects extends React.Component {
 
         <Row fluid className="project-stack">
           <Col fluid lg={5} className="project-deck">
-            <Card className="project-card" bg='dark' border='secondary' text='light'>
+            <Card className="project-card" bg='dark' border='primary' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
                   <Image src={spotifyTierListmaker} className="project-img" alt="Spotify Tier List Maker"/>
@@ -94,9 +94,6 @@ class Projects extends React.Component {
                 <div style={{float: "right"}}>
                     <a href="https://ryansniu.github.io/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
                       <Image className='project-icons' src={link} fluid alt='Link'/>
-                    </a>
-                    <a href="https://github.com/ryansniu/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
-                        <Image className='project-icons' src={github} fluid alt='GitHub'/>
                     </a>
                 </div>
               </Card.Body>
@@ -158,7 +155,7 @@ class Projects extends React.Component {
             </Card>
           </Col>
         </Row>
-    
+
         <Row fluid className="project-stack">
           <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='warning' text='light'>
@@ -204,47 +201,6 @@ class Projects extends React.Component {
           </Col>
 
           <Col fluid lg={5} className="project-deck">
-            <Card className="project-card" bg='dark' border='secondary' text='light'>
-              <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
-                <Card.Title>
-                  <Image src={blueSpot} className="project-img" alt="Blue Spot"/>
-                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.2rem", paddingTop: "0"}}>
-                    <h5>Blue Spot</h5>
-                    <p><i style={{color: "#9A9DA0"}}>TreeHacks 2020</i></p>
-                  </div>
-                </Card.Title>
-              </Card.Body>
-              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
-                <Card.Text style={{minHeight: "calc(100% - 3.7rem)", paddingBottom: "0"}}>
-                  BlueSpot is a nifty mobile AR message visualization application designed for posting location-specific messages. 
-                  Users walk around the physical world, typing messages and dropping them in "blue spots" for others to discover and read them. 
-                  The application was created entirely using Unity Engine, utilizing the ARFoundation package to overlay virtual objects on the camera view and the Firebase Realtime Database API.
-                </Card.Text>
-                <div style={{float: "right"}}>
-                    <a href="https://devpost.com/software/bluespot" target="_blank" rel="noopener noreferrer">
-                        <Image className='project-icons' src={devpost} fluid alt='Devpost'/>
-                    </a>
-                    <a href="https://github.com/connorlien/BlueSpot" target="_blank" rel="noopener noreferrer">
-                        <Image className='project-icons' src={github} fluid alt='GitHub'/>
-                    </a>
-                </div>
-              </Card.Body>
-              <ListGroup className="list-group-flush">
-                <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
-                  <b style={{color: "#CCCECF"}}>Programming Languages: </b>
-                  C#
-                </ListGroupItem>
-                <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
-                  <b style={{color: "#CCCECF"}}>Technologies: </b>
-                  Unity Engine, Visual Studio, Firebase, ARFoundation, MapBox API
-                </ListGroupItem>
-              </ListGroup>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row fluid className="project-stack">
-          <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='warning' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
                 <Card.Title>
@@ -284,7 +240,48 @@ class Projects extends React.Component {
               </ListGroup>
             </Card>
           </Col>
+        </Row>
 
+        {/*
+        <Row fluid className="project-stack">
+          <Col fluid lg={5} className="project-deck">
+            <Card className="project-card" bg='dark' border='secondary' text='light'>
+              <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
+                <Card.Title>
+                  <Image src={blueSpot} className="project-img" alt="Blue Spot"/>
+                  <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.2rem", paddingTop: "0"}}>
+                    <h5>Blue Spot</h5>
+                    <p><i style={{color: "#9A9DA0"}}>TreeHacks 2020</i></p>
+                  </div>
+                </Card.Title>
+              </Card.Body>
+              <Card.Body style={{padding: "0 1rem 1rem 1rem", color: "#DEDEDE"}}>
+                <Card.Text style={{minHeight: "calc(100% - 3.7rem)", paddingBottom: "0"}}>
+                  BlueSpot is a nifty mobile AR message visualization application designed for posting location-specific messages. 
+                  Users walk around the physical world, typing messages and dropping them in "blue spots" for others to discover and read them. 
+                  The application was created entirely using Unity Engine, utilizing the ARFoundation package to overlay virtual objects on the camera view and the Firebase Realtime Database API.
+                </Card.Text>
+                <div style={{float: "right"}}>
+                    <a href="https://devpost.com/software/bluespot" target="_blank" rel="noopener noreferrer">
+                        <Image className='project-icons' src={devpost} fluid alt='Devpost'/>
+                    </a>
+                    <a href="https://github.com/connorlien/BlueSpot" target="_blank" rel="noopener noreferrer">
+                        <Image className='project-icons' src={github} fluid alt='GitHub'/>
+                    </a>
+                </div>
+              </Card.Body>
+              <ListGroup className="list-group-flush">
+                <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
+                  <b style={{color: "#CCCECF"}}>Programming Languages: </b>
+                  C#
+                </ListGroupItem>
+                <ListGroupItem variant='light' style={{backgroundColor: "#222222"}}>
+                  <b style={{color: "#CCCECF"}}>Technologies: </b>
+                  Unity Engine, Visual Studio, Firebase, ARFoundation, MapBox API
+                </ListGroupItem>
+              </ListGroup>
+            </Card>
+          </Col>
           <Col fluid lg={5} className="project-deck">
             <Card className="project-card" bg='dark' border='secondary' text='light'>
               <Card.Body style={{paddingBottom: "0", maxHeight: "6rem"}}>
@@ -323,7 +320,7 @@ class Projects extends React.Component {
             </Card>
           </Col>
         </Row>
-
+        */}
       </Container>
     );    
   }

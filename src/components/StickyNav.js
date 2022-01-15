@@ -36,21 +36,15 @@ const StickyNav = () => {
             </Nav.Link>
           </Link>
 
-          <Link className="sticky-nav-item" to="projects" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
-            <Nav.Link>
-              <h4>Projects</h4>
-            </Nav.Link>
-          </Link>
-          
           <Link className="sticky-nav-item" to="experience" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
             <Nav.Link>
               <h4>Experience</h4>
             </Nav.Link>
           </Link>
 
-          <Link className="sticky-nav-item" to="resume" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
+          <Link className="sticky-nav-item" to="projects" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
             <Nav.Link>
-              <h4>Resume</h4>
+              <h4>Projects</h4>
             </Nav.Link>
           </Link>
         </Nav>
