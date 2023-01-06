@@ -29,7 +29,7 @@ class Projects extends React.Component {
   render(){
     return(
       <Container fluid className="projects" id="projects">
-        <h1 style={{fontSize: "50px"}}>Projects</h1>
+        <h1 style={{fontSize: "50px"}}><b>Projects</b></h1>
 
         <Modal centered size="xl" show={this.state.showVO} onHide={this.toggleVO} className="project-modal">
           <Modal.Body>
@@ -79,7 +79,7 @@ class Projects extends React.Component {
                 <Card.Title>
                   <Image src={spotifyTierListmaker} className="project-img" alt="Spotify Tier List Maker"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
-                    <h5>Spotify Tier List Maker</h5>
+                    <h5 style={{fontWeight: 'bold'}}>Spotify Tier List Maker</h5>
                     <p><i style={{color: "#9A9DA0"}}>Solo Web Project</i></p>
                   </div>
                 </Card.Title>
@@ -116,7 +116,7 @@ class Projects extends React.Component {
                 <Card.Title>
                   <Image src={voiceOrder} className="project-img" alt="Voice Order"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
-                    <h5>Voice Order</h5>
+                    <h5 style={{fontWeight: 'bold'}}>Voice Order</h5>
                     <p><i style={{color: "#9A9DA0"}}>SB Hacks VI</i></p>
                     <p><b style={{color: "gold"}}>Best Amazon Alexa Skill</b></p>
                   </div>
@@ -163,7 +163,7 @@ class Projects extends React.Component {
                 <Card.Title>
                   <Image src={trainingArc} className="project-img" alt="TrainingArc"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.2rem", paddingTop: "0"}}>
-                    <h5>TrainingArc</h5>
+                    <h5 style={{fontWeight: 'bold'}}>TrainingArc</h5>
                     <p><i style={{color: "#9A9DA0"}}>SD Hacks 2021</i></p>
                     <p><b style={{color: "gold"}}>Wolfram Alpha Prize</b></p>
                   </div>
@@ -206,7 +206,7 @@ class Projects extends React.Component {
                 <Card.Title>
                   <Image src={touhouDX} className="project-img" alt="Touhou DX"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.1rem", paddingTop: "0"}}>
-                    <h5>Touhou DX</h5>
+                    <h5 style={{fontWeight: 'bold'}}>Touhou DX</h5>
                     <p><i style={{color: "#9A9DA0"}}>CodeDay Bay Area 2018</i></p>
                     <p><b style={{color: "gold"}}>Best Game</b></p>
                   </div>

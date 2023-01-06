@@ -23,7 +23,7 @@ const StickyNav = () => {
     <Navbar sticky="top" expand="md" variant="dark" style={{alignItems: "center", backgroundColor: "#222"}}>
       <Link to="welcome" smooth={true} offset={-100 + off} duration= {500}>
         <Navbar.Brand>
-          <h2><button className="project-buttons" style={{color: "#97DEFF"}}>Ryan Niu</button></h2>
+          <h2><button className="project-buttons" style={{color: "#97DEFF"}}><b>Ryan Niu</b></button></h2>
         </Navbar.Brand>
       </Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

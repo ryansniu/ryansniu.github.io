@@ -5,12 +5,12 @@ import treehacks from '../assets/about/treehacks.JPG'
 
 const About = () => (
   <Container fluid className="about" id="about">
-      <h1 style={{fontSize: "50px"}}>About</h1>
+      <h1 style={{fontSize: "50px"}}><b>About</b></h1>
 
       <Row fluid className="about-row">
         <Col xl={5}>
           <Image src={treehacks} alt="TreeHacks 2020" className="about-img"/>
-          <div style={{color: "#97DEFF", fontSize: "1.25rem", marginBottom: "2rem"}}>
+          <div style={{color: "#97DEFF", marginBottom: "2rem"}}>
             <text> Here's me and </text>
             <a href="https://connorlien.github.io/" target="_blank" rel="noopener noreferrer">my friend</a>
             <text> at TreeHacks 2020!</text>
@@ -18,18 +18,6 @@ const About = () => (
         </Col>
         <Col xl={7} className="about-text">
           <div className="about-section">
-            <h2 style={{color: "#EEF8FF", marginTop: "2rem"}}>Education</h2>
-            <h4>University of California, Santa Barbara</h4>
-            <h4>B.S. Computer Engineering</h4>
-            <h4>Minoring in Japanese</h4>
-            <h4>Class of 2023</h4>
-            <h5>
-              <Badge variant="warning">Dean's Honors</Badge>
-              <text> </text>
-              <Badge variant="warning">College of Engineering Honors</Badge>
-            </h5>
-            <div style={{margin: "2rem"}}/>
-            <h2 style={{color: "#EEF8FF"}}>Bio</h2>
             <p style={{textAlign: "left"}}>
               Nice to meet you! 
               I'm Ryan Niu and I like to build a wide variety of software such as video games, SaaS, and even this website!
