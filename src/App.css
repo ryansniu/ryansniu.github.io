@@ -8,3 +8,12 @@
       transform: translateY(0);
     }
 }
+
+.card {
+  border-radius: 1.25rem;
+  border: 0;
+}
+
+.bg-dark {
+  background-color: #5715c83a !important;
+}

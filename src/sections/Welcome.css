@@ -5,14 +5,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #CBE0FD;
+  color: #AFABD9;
+  max-width: max-content;
+  margin:auto;
 }
 
 .pfp {
-  margin: 1rem;
-  padding: 0.75rem;
-  box-shadow: 1.75rem 1rem black;
-  max-height: 65vh;
+  padding: 1rem;
+  max-height: 67vh;
   max-width: 100%;
   animation: pfp-anim 1s ease;
   animation-fill-mode: both;
@@ -33,6 +33,7 @@
   font-size: 18px;
   animation: intro-anim 0.6s ease 0.2s;
   animation-fill-mode: both;
+  min-width: max-content;
 }
 
 @keyframes intro-anim {
@@ -52,6 +53,7 @@
   max-width: 5rem;
   animation: home-icons-anim 0.8s ease 0.4s;
   animation-fill-mode: both;
+  transition: scale 0.08s ease-out;
 }
 
 .home-icons:hover {

@@ -1,0 +1,16 @@
+.notfound {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    color:white;
+    min-height: calc(100vh - 226px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lost {
+    padding: 1rem;
+    width: 20%;
+}

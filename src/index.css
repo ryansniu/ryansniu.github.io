@@ -1,6 +1,15 @@
+@keyframes move-it {
+  0% {
+    background-position: initial;
+  }
+  100% {
+    background-position: 100rem 0;
+  }
+}
+
 html {
   min-height: 100vh;
-  scrollbar-color: #1f1868 #1F1F1F !important;
+  scrollbar-color: #5715c8 #222 !important;
 }
 
 body {
@@ -10,9 +19,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
-  background-image: linear-gradient(135deg, #000000 0%, #130F40 25%, #000000 50%, #130F40 75%, #000000 100%);
-
+  background: repeating-linear-gradient(135deg, #000000 0%, #1c0836 25%, #000000 50%);
+  background-size: 100rem 100rem;
+  animation: move-it 20s ease-in-out infinite;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

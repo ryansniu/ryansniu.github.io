@@ -1,54 +1,32 @@
-import React, { useLayoutEffect, useState } from 'react'
-import { Link } from 'react-scroll'
-import { Navbar, Nav } from 'react-bootstrap'
+import React from 'react'
+import { Container, Navbar, Nav, Image } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './StickyNav.css'
-
-function useWindowSize() {
-  const [size, setSize] = useState([0, 0]);
-  useLayoutEffect(() => {
-    function updateSize() {
-      setSize([window.innerWidth, window.innerHeight]);
-    }
-    window.addEventListener('resize', updateSize);
-    updateSize();
-    return () => window.removeEventListener('resize', updateSize);
-  }, []);
-  return size;
-}
+import brand from '../assets/icons/brand.png'
 
 const StickyNav = () => {
-  const [width, height] = useWindowSize();
-  var off = width < 667 ? -200 : 0;
   return (
-    <Navbar sticky="top" expand="md" variant="dark" style={{alignItems: "center", backgroundColor: "#222"}}>
-      <Link to="welcome" smooth={true} offset={-100 + off} duration= {500}>
-        <Navbar.Brand>
-          <h2><button className="project-buttons" style={{color: "#97DEFF"}}><b>Ryan Niu</b></button></h2>
+    <Navbar expand="md" variant="dark" style={{backgroundColor: "#5715c83a"}}>
+      <Container>
+        <Navbar.Brand as={Link} to='/'>
+          <Image className='brand-icon d-inline-block align-top' src={brand} fluid alt='LinkedIn'/>
+          <b style={{fontSize: '2rem'}}>Ryan Niu</b>
         </Navbar.Brand>
-      </Link>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto"/>
-        <Nav>
-          <Link className="sticky-nav-item" to="about" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
-            <Nav.Link>
-              <h4>About</h4>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ml-auto">
+            <Nav.Link className="nav-item" as={Link} to='/about'>
+              About
             </Nav.Link>
-          </Link>
-
-          <Link className="sticky-nav-item" to="experience" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
-            <Nav.Link>
-              <h4>Experience</h4>
+            <Nav.Link className="nav-item" as={Link} to='/experience'>
+              Experience
             </Nav.Link>
-          </Link>
-
-          <Link className="sticky-nav-item" to="projects" smooth={true} spy={true} offset={-73 + off} duration={500} style={{ textDecoration: 'none', textAlign: 'center'}}>
-            <Nav.Link>
-              <h4>Projects</h4>
+            <Nav.Link className="nav-item" as={Link} to='/projects'>
+              Projects
             </Nav.Link>
-          </Link>
-        </Nav>
-      </Navbar.Collapse>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 }

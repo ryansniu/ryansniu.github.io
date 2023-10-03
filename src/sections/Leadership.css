@@ -1,0 +1,22 @@
+.leadership {
+    padding: 2rem;
+    text-align: center;
+    color:#FFF;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    max-width: 50rem;
+}
+
+.leadership-text {
+    padding: 0 2rem 0 2rem;
+    color: #AFABD9;
+    font-size: 1.18rem;
+}
+
+.leadership-img {
+    padding: 0.5rem;
+    height: 60%;
+    width: 60%;
+    margin-top: 2rem;
+}
