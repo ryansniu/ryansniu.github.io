@@ -56,7 +56,7 @@ class Projects extends React.Component {
                   <Image src={spotifyTierListMaker} className="project-img" alt="Spotify Tier List Maker"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.25rem", paddingTop: "0"}}>
                     <h5 className="project-hyperlink" style={{fontWeight: 'bold'}}>
-                      <a href="https://ryansniu.github.io/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
+                      <a href="https://ryanniu.dev/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
                         Spotify Tier List Maker
                         <Image className='project-link' src={link} fluid alt='Link'/>
                       </a>
@@ -179,7 +179,7 @@ class Projects extends React.Component {
                   <Image src={portfolio} className="project-img" alt="Portfolio Website"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.25rem", paddingTop: "0"}}>
                     <h5 className="project-hyperlink" style={{fontWeight: 'bold'}}>
-                      <a href="https://ryansniu.github.io/" target="_blank" rel="noopener noreferrer">
+                      <a href="https://ryanniu.dev" target="_blank" rel="noopener noreferrer">
                         Portfolio
                         <Image className='project-link' src={link} fluid alt='Link'/>
                       </a>
@@ -196,7 +196,7 @@ class Projects extends React.Component {
               </Card.Body>
               <ListGroup className="list-group-flush">
                 <ListGroupItem variant='light' style={{backgroundColor: "#0000", display: "flex", justifyContent:"center", alignItems: "center"}}>
-                  <a href="https://github.com/ryansniu/ryansniu.github.io" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/ryansniu/ryanniu.dev" target="_blank" rel="noopener noreferrer">
                     <Image className='project-icons' src={github} fluid alt='GitHub'/>
                   </a>
                 </ListGroupItem>
