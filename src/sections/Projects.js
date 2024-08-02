@@ -196,7 +196,7 @@ class Projects extends React.Component {
               </Card.Body>
               <ListGroup className="list-group-flush">
                 <ListGroupItem variant='light' style={{backgroundColor: "#0000", display: "flex", justifyContent:"center", alignItems: "center"}}>
-                  <a href="https://github.com/ryansniu/ryanniu.dev" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/ryansniu/ryansniu.github.io" target="_blank" rel="noopener noreferrer">
                     <Image className='project-icons' src={github} fluid alt='GitHub'/>
                   </a>
                 </ListGroupItem>
