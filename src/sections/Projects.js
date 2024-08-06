@@ -68,7 +68,7 @@ class Projects extends React.Component {
               <Card.Body style={{color: "#DEDEDE", padding: "0 2rem 1rem"}}>
                 <Image src={spotifyTierListMakerScreenshot} className="project-screenshot" alt="Spotify Tier List Maker screenshot"/>
                 <Card.Text>
-                  A robust web app that allows users to create their own tier list of songs, albums, and artists through the Spotify API.
+                  A robust web app that allows users to create their own tier list of songs, albums, and artists through the Spotify API, without the need for an account.
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">
@@ -108,7 +108,7 @@ class Projects extends React.Component {
               <Card.Body style={{color: "#DEDEDE", padding: "0 2rem 1rem"}}>
                 <Image src={smallEPicture} className="project-screenshot" alt="small · e picture"/>
                 <Card.Text>
-                  A fully submersible stereo camera and eDNA collection system constructed to aid UCSB Oakley Evolution Lab's investigation of the evolutionary history of bioluminescence courtship signaling in ostracods.
+                  A fully submersible stereo camera and eDNA collection system constructed to aid UCSB Oakley Evolution Lab's investigation of the bioluminescence courtship signaling in ostracods.
                 </Card.Text>
               </Card.Body>
               <ListGroup className="list-group-flush">

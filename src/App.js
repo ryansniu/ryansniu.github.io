@@ -9,7 +9,7 @@ import Leadership from './sections/Leadership'
 import Projects from './sections/Projects'
 import Footer from './sections/Footer'
 import NotFound from './sections/NotFound'
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css'
 
 const RedirectToNotFound = () => <Navigate to="/oop" />;

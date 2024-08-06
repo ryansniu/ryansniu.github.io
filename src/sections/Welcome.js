@@ -37,7 +37,7 @@ const Welcome = () => {
                 <Col lg={6} xl={6} className='intro-text'>
                     <h1 style={{fontSize: '5rem', color:' #FFF', textShadow: '0.5rem 0.5rem black'}}><b>Hi, I'm Ryan!</b></h1>
                     <div style={{fontSize: '1.55rem'}}>
-                        <b>software engineer · game developer · musician</b>
+                        <b>full stack · machine learning · immersive audio</b>
                     </div>
                     <div>
 
