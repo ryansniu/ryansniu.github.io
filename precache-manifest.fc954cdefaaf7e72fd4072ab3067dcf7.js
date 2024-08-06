@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ba2b8386427c88f4f4a837d4f5cd343",
+    "revision": "fe404bf79b560469a3391259583b45cb",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "cf159c65a246b2d77151",
+    "revision": "413cc0ae6d38016d6ec9",
     "url": "/static/css/main.dd880ba8.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.32a1eb80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf159c65a246b2d77151",
-    "url": "/static/js/main.0891dac3.chunk.js"
+    "revision": "413cc0ae6d38016d6ec9",
+    "url": "/static/js/main.26dd78b5.chunk.js"
   },
   {
     "revision": "496b818eeff0eb18e169",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/smalle_po.811e8299.png"
   },
   {
-    "revision": "db23d41cfddddbbcdb0be4cefd17d984",
-    "url": "/static/media/spotify-tier-list-maker-screenshot.e07e859d.png"
+    "revision": "230fa37306c194e35d164fc612c77305",
+    "url": "/static/media/spotify-tier-list-maker-screenshot.d407b146.png"
   },
   {
     "revision": "2e8c17487bafd598dd6ec48234942783",
