@@ -56,7 +56,7 @@ class Projects extends React.Component {
                   <Image src={spotifyTierListMaker} className="project-img" alt="Spotify Tier List Maker"/>
                   <div style={{margin: "0", fontSize: "1rem", lineHeight: "0.25rem", paddingTop: "0"}}>
                     <h5 className="project-hyperlink" style={{fontWeight: 'bold'}}>
-                      <a href="https://ryansniu.github.io/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
+                      <a href="https://ryanniu.dev/spotify-tier-list-maker" target="_blank" rel="noopener noreferrer">
                         Spotify Tier List Maker
                         <Image className='project-link' src={link} fluid alt='Link'/>
                       </a>
