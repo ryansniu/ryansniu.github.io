@@ -62,7 +62,7 @@
         flex-direction: column;
         gap: 0.5rem;
         align-items: center;
-        width: 503.6px;
+        width: min(503.6px, 95%);
     }
     .year {
         flex: 0 0 auto;
