@@ -28,12 +28,12 @@
 .year {
     background: rgba(240,240,240,0.06);
     color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
+    border: 1px solid rgba(255,255,255,0.04);
+    
     padding: 0.45rem 0.7rem;
     border-radius: 999px;
     font-weight: 600;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.35);
-    border: 1px solid rgba(255,255,255,0.04);
-    z-index: 2;
     flex: 0 0 96px;
     text-align: center;
     align-self: flex-start;
@@ -51,13 +51,17 @@
 .branch {
     background: rgba(255,255,255,0.03);
     color: #f0f0f0;
-    border-radius: 8px;
-    padding: 0.6rem;
     border: 1px solid rgba(255,255,255,0.04);
     box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+
+    border-radius: 8px;
+    padding: 0.6rem;
 }
 
 @media (max-width: 679px) {
+    .timeline {
+        font-size: 1rem;
+    }
     .timeline-item {
         flex-direction: column;
         gap: 0.5rem;
